@@ -54,23 +54,24 @@
 等待直至虚拟机状态变为Running，至此CKAN镜像部署完毕：
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/15.PNG)
 
-在浏览器中输入网址：http://mytestckan.chinacloudapp.cn，可以看到CKAN门户已经可以访问了：
+在浏览器中输入网址：[http://mytestckan.chinacloudapp.cn](http://mytestckan.chinacloudapp.cn)，可以看到CKAN门户已经可以访问了：
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/16.PNG)
 
 ### 安装后的配置（必须完成） ##
-由于CKAN的特殊要求，每一个新部署的镜像需要调整ckan.site_url参数才能正常工作，
-下面演示如何修改此参数：
+由于CKAN的特殊要求，每一个新部署的镜像需要调整ckan.site_url参数才能正常工作，下面演示如何修改此参数：
+
 Windows用户可通过安装ssh客户端，如PuTTY，连接到新建的CKAN虚机；Linux和Mac用户可直接通过ssh命令连接：
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/18.PNG)
-本例中我们采用用户名密码认证方式登录mytestckan.chinacloudapp.cn
+本例中我们采用密码认证方式登录mytestckan.chinacloudapp.cn
 
-运行以下命令,运行前将*YOUR-CKAN-DOMAIN-NAME*替换为您实际的网站域名，在本例中为mytestckan.chinacloudapp.cn
+运行以下命令,运行前将*YOUR-CKAN-DOMAIN-NAME*替换为您实际的网站域名，在本例中为mytestckan.chinacloudapp.cn，
+注意，请勿加http://前缀：
 sudo sed -i 's/ckanimage.chinacloudapp.cn/*YOUR-CKAN-DOMAIN-NAME*/' /etc/ckan/default/production.ini
 
 检查命令是否生效：
-cat /etc/ckan/default/production.ini |grep ckan.site_url
+cat /etc/ckan/default/production.ini | grep ckan.site_url
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/19.PNG)
-注意，您也许会为您的CKAN门户网站申请不同的域名，请将site_url替换为实际用户访问使用的域名。
+注意：您也许会为您的CKAN门户网站申请不同的域名，请将site_url替换为最终用户实际访问的域名。
 
 重启apache和nginx服务：
 sudo service apache2 restart && sudo service nginx restart
