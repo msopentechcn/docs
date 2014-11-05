@@ -42,7 +42,7 @@
 ÌîĞ´Ğé»úÃû³Æ£¬ÓÃ»§ÃûºÍÈÏÖ¤·½Ê½£¬×¢ÒâÕâÀïµÄÄ¬ÈÏÓÃ»§ÃûÎªazureuser,µã»÷ÏÂÒ»²½£º
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/12.PNG)
 
-´´½¨Cloud Service£¬ÔÚ±¾ÀıÖĞ£¬·şÎñµØÖ·Îªmytestckan.chinacloudapp.cn,
+´´½¨Cloud Service£¬ÔÚ±¾ÀıÖĞ£¬·şÎñµØÖ·Îªmytestckan.chinacloudapp.cn£¬
 ×¢ÒâĞèÒª´ò¿ªÖÁÉÙÈı¸ötcp¶Ë¿Ú£¬·Ö±ğÎª22£¬80£¬443£¬µã»÷ÏÂÒ»²½£º
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/13.PNG)
 
@@ -52,7 +52,7 @@
 µÈ´ıÖ±ÖÁĞéÄâ»ú×´Ì¬±äÎªRunning£¬ÖÁ´ËCKAN¾µÏñ²¿ÊğÍê±Ï£º
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/15.PNG)
 
-ÔÚä¯ÀÀÆ÷ÖĞÊäÈëÍøÖ·£ºhttp://mytestckan.chinacloudapp.cn,¿ÉÒÔ¿´µ½CKANÃÅ»§ÒÑ¾­¿ÉÒÔ·ÃÎÊÁË£º
+ÔÚä¯ÀÀÆ÷ÖĞÊäÈëÍøÖ·£ºhttp://mytestckan.chinacloudapp.cn£¬¿ÉÒÔ¿´µ½CKANÃÅ»§ÒÑ¾­¿ÉÒÔ·ÃÎÊÁË£º
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/16.PNG)
 
 ### °²×°ºóµÄÅäÖÃ£¨±ØĞëÍê³É£© ##
@@ -62,8 +62,8 @@ WindowsÓÃ»§¿ÉÍ¨¹ı°²×°ssh¿Í»§¶Ë£¬ÈçPuTTY£¬Á¬½Óµ½ĞÂ½¨µÄCKANĞé»ú£»LinuxºÍMacÓÃ»§¿ÉÖ
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/18.PNG)
 ±¾ÀıÖĞÎÒÃÇ²ÉÓÃÓÃ»§ÃûÃÜÂëÈÏÖ¤·½Ê½µÇÂ¼mytestckan.chinacloudapp.cn
 
-ÔËĞĞÒÔÏÂÃüÁî,ÔËĞĞÇ°½«YOUR-CKAN-DOMAIN-NAMEÌæ»»ÎªÄúÊµ¼ÊµÄÍøÕ¾ÓòÃû£¬ÔÚ±¾ÀıÖĞÎªmytestckan.chinacloudapp.cn
-sudo sed -i 's/ckanimage.chinacloudapp.cn/YOUR-CKAN-DOMAIN-NAME/' /etc/ckan/default/production.ini
+ÔËĞĞÒÔÏÂÃüÁî,ÔËĞĞÇ°½«*YOUR-CKAN-DOMAIN-NAME*Ìæ»»ÎªÄúÊµ¼ÊµÄÍøÕ¾ÓòÃû£¬ÔÚ±¾ÀıÖĞÎªmytestckan.chinacloudapp.cn
+sudo sed -i 's/ckanimage.chinacloudapp.cn/*YOUR-CKAN-DOMAIN-NAME*/' /etc/ckan/default/production.ini
 
 ¼ì²éÃüÁîÊÇ·ñÉúĞ§£º
 cat /etc/ckan/default/production.ini |grep ckan.site_url
@@ -113,6 +113,6 @@ sudo service apache2 restart && sudo service nginx restart
 ### ¶¨ÖÆÄúµÄCKAN ##
 ÄúÒ²ĞíÏ£Íû¸Ä±ä´Ë¾µÏñÄ¬ÈÏµÄÅäÖÃÈçÍøÕ¾±êÌâ£¬½éÉÜÎÄ×ÖµÈ£¬
 ¿ÉÒÔÓÃadminµÇÂ¼ºó£¬µã»÷Ê×Ò³ÓÒÉÏ½Ç¡°ÏµÍ³¹ÜÀíÔ±ÉèÖÃ¡±£¬
-Ñ¡Ôñ¡°ÅäÖÃ¡±Ñ¡Ïî¿¨£º
+Ñ¡Ôñ¡°ÅäÖÃ¡±Ñ¡Ïî¿¨£¬https://raw.githubusercontent.com/msopentechcn/docs/master/images/£º
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/30.PNG)
 ÔÚÕâÀï£¬Äú¿ÉÒÔ¶ÔÍøÕ¾·ç¸ñºÍÎÄ×Ö½øĞĞ¶¨ÖÆ¡£
