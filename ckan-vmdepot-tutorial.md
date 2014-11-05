@@ -10,7 +10,7 @@
 ### 在Azure管理控制台中，导入CKAN镜像到您的本地帐户 ##
 
 打开Azure控制台：[https://manage.windowsazure.cn](https://manage.windowsazure.cn)
-选择Virutal Machines -> Images -> Browse VM Depot:
+选择Virtual Machines -> Images -> Browse VM Depot:
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/1.PNG)
 
 在Ubuntu类别下找到CKAN镜像，这是已经发布在VM Depot上的一键部署镜像：
@@ -45,7 +45,7 @@
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/12.PNG)
 
 创建Cloud Service，在本例中，服务地址为mytestckan.chinacloudapp.cn，
-注意需要打开至少三个tcp端口，分别为22，80，443，点击下一步：
+注意需要打开至少三个TCP端口，分别为22，80，443，点击下一步：
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/13.PNG)
 
 确认VM Agent已经安装，点击下一步：
@@ -123,4 +123,3 @@ $sudo service apache2 restart && sudo service nginx restart
 可以用admin登录后，点击首页右上角“系统管理员设置”，
 选择“配置”选项卡，在这里，您可以对网站风格和文字进行定制:
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/30.PNG)
-
