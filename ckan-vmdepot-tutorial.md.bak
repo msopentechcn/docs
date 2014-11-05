@@ -116,6 +116,6 @@ sudo service apache2 restart && sudo service nginx restart
 ### 定制您的CKAN ##
 您也许希望改变此镜像默认的配置如网站标题，介绍文字等，
 可以用admin登录后，点击首页右上角“系统管理员设置”，
-选择“配置”选项卡，https://raw.githubusercontent.com/msopentechcn/docs/master/images/：
+选择“配置”选项卡，在这里，您可以对网站风格和文字进行定制:
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/30.PNG)
-在这里，您可以对网站风格和文字进行定制。
+
