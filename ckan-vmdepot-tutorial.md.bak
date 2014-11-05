@@ -1,118 +1,120 @@
-#Ê¹ÓÃVMDepot¾µÏñÔÚAzureÉÏ¿ìËÙ²¿ÊğCKAN#
+ï»¿#ä½¿ç”¨CKAN VMDepoté•œåƒåœ¨Azureä¸Šå¿«é€Ÿéƒ¨ç½²å¼€æ”¾æ•°æ®é—¨æˆ·#
 
-±¾Ö¸ÄÏÕ¹Ê¾ÁËÈçºÎÍ¨¹ıVMDepot¾µÏñ¿ìËÙ½øĞĞCKAN²¿Êğ
+æœ€æ–°å‘å¸ƒçš„CKAN VMDepoté•œåƒé›†æˆäº†å¸¸ç”¨æ’ä»¶å’Œæœ€ä½³å®è·µé…ç½®å‚æ•°ï¼Œå¹¶é’ˆå¯¹ä¸­å›½ç”¨æˆ·å¼ºåŒ–äº†ä¸­æ–‡æ”¯æŒï¼Œ
+æœ¬æŒ‡å—å±•ç¤ºäº†å¦‚ä½•ä½¿ç”¨CKAN VMDepoté•œåƒå¿«é€Ÿæ­å»ºå¼€æ”¾æ•°æ®é—¨æˆ·ã€‚
 
-###Ç°ÌáÌõ¼ş##
-ÄúÖÁÉÙĞèÒªÒ»¸ö¿ÉÓÃµÄÎ¢ÈíÖĞ¹úAzure¹«ÓĞÔÆÔÚÖĞ¹úµÄÕË»§
+###å‰ææ¡ä»¶##
+æ‚¨éœ€è¦ä¸€ä¸ªå¯ç”¨çš„å¾®è½¯ä¸­å›½Azureå…¬æœ‰äº‘è´¦æˆ·
 
 
-### ÔÚAzure¹ÜÀí¿ØÖÆÌ¨ÖĞ£¬µ¼ÈëCKAN¾µÏñµ½±¾µØÕÊ»§ ##
-´ò¿ªAzure¿ØÖÆÌ¨£º[https://manage.windowsazure.cn](https://manage.windowsazure.cn)
-Ñ¡Ôñvirutal machines -> images -> Browse VM Depot:
+### åœ¨Azureç®¡ç†æ§åˆ¶å°ä¸­ï¼Œå¯¼å…¥CKANé•œåƒåˆ°æ‚¨çš„æœ¬åœ°å¸æˆ· ##
+
+æ‰“å¼€Azureæ§åˆ¶å°ï¼š[https://manage.windowsazure.cn](https://manage.windowsazure.cn)
+é€‰æ‹©Virutal Machines -> Images -> Browse VM Depot:
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/1.PNG)
 
-ÔÚUbuntuÀà±ğÏÂÕÒµ½CKAN¾µÏñ£¬ÕâÊÇÒÑ¾­·¢²¼ÔÚVMdepotÉÏÒ»¼ü²¿Êğ¾µÏñ£º
+åœ¨Ubuntuç±»åˆ«ä¸‹æ‰¾åˆ°CKANé•œåƒï¼Œè¿™æ˜¯å·²ç»å‘å¸ƒåœ¨VM Depotä¸Šçš„ä¸€é”®éƒ¨ç½²é•œåƒï¼š
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/2.PNG)
 
-ÏÂÃæĞèÒª½«´Ë¾µÏñ¿½±´µ½µÄÓÃ»§´æ´¢ÕË»§£¬¿ÉÒÔÑ¡ÔñÒÑÓĞµÄ´æ´¢ÕÊ»§£¬Ò²¿ÉĞÂ½¨£º
+ä¸‹é¢éœ€è¦å°†æ­¤é•œåƒæ‹·è´åˆ°çš„ç”¨æˆ·å­˜å‚¨è´¦æˆ·ï¼Œå¯ä»¥é€‰æ‹©å·²æœ‰çš„å­˜å‚¨å¸æˆ·ï¼Œä¹Ÿå¯æ–°å»ºï¼š
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/3.PNG)
 
-¿½±´¹ı³Ì½«»¨·Ñ¼¸·ÖÖÓµÄÊ±¼ä£º
+æ‹·è´è¿‡ç¨‹å°†èŠ±è´¹å‡ åˆ†é’Ÿçš„æ—¶é—´ï¼š
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/4.PNG)
 
-¿½±´Íê³Éºó£¬±¾µØCKAN¾µÏñµÄ×´Ì¬ÊÇPending registration£¬µã»÷Register×¢²á£º
+æ‹·è´å®Œæˆåï¼Œæœ¬åœ°CKANé•œåƒçš„çŠ¶æ€æ˜¯Pending registrationï¼Œç‚¹å‡»Registeræ³¨å†Œï¼š
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/6.PNG)
 
-ÌîĞ´×¢²á¾µÏñÃû³Æ£º
+å¡«å†™æ³¨å†Œé•œåƒåç§°ï¼š
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/7.PNG)
 
-¾µÏñ×´Ì¬±äÎªAvailable£¬ÖÁ´Ë£¬CKAN¾µÏñÒÑ¾­×¼±¸Íê±Ï£º
+é•œåƒçŠ¶æ€å˜ä¸ºAvailableï¼Œè‡³æ­¤ï¼ŒCKANé•œåƒå·²ç»å‡†å¤‡å®Œæ¯•ï¼š
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/8.PNG)
 
-### Ê¹ÓÃ±¾µØCKAN¾µÏñ´´½¨Ğé»ú ##
-ÔÚAzure¹ÜÀí¿ØÖÆÌ¨ÖĞ£¬Ñ¡ÔñVirtual Machines -> Create a Virtual Machine
+### ä½¿ç”¨æœ¬åœ°CKANé•œåƒåˆ›å»ºè™šæœº ##
+åœ¨Azureç®¡ç†æ§åˆ¶å°ä¸­ï¼Œé€‰æ‹©Virtual Machines -> Create a Virtual Machine
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/9.PNG)
 
-Ñ¡ÔñFrom Gallery£º
+é€‰æ‹©From Galleryï¼š
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/10.PNG)
 
-ÔÚMy ImagesÀà±ğ£¬ÕÒµ½ÎÒÃÇ¸Õ¸Õ×¢²áµÄCKAN¾µÏñ£¬µã»÷ÏÂÒ»²½£º
+åœ¨My Imagesç±»åˆ«ï¼Œæ‰¾åˆ°æˆ‘ä»¬åˆšåˆšæ³¨å†Œçš„CKANé•œåƒï¼Œç‚¹å‡»ä¸‹ä¸€æ­¥ï¼š
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/11.PNG)
 
-ÌîĞ´Ğé»úÃû³Æ£¬ÓÃ»§ÃûºÍÈÏÖ¤·½Ê½£¬×¢ÒâÕâÀïµÄÄ¬ÈÏÓÃ»§ÃûÎªazureuser,µã»÷ÏÂÒ»²½£º
+å¡«å†™è™šæœºåç§°ï¼Œç”¨æˆ·åå’Œè®¤è¯æ–¹å¼ï¼Œæ³¨æ„è¿™é‡Œçš„é»˜è®¤ç”¨æˆ·åä¸ºazureuser,ç‚¹å‡»ä¸‹ä¸€æ­¥ï¼š
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/12.PNG)
 
-´´½¨Cloud Service£¬ÔÚ±¾ÀıÖĞ£¬·şÎñµØÖ·Îªmytestckan.chinacloudapp.cn£¬
-×¢ÒâĞèÒª´ò¿ªÖÁÉÙÈı¸ötcp¶Ë¿Ú£¬·Ö±ğÎª22£¬80£¬443£¬µã»÷ÏÂÒ»²½£º
+åˆ›å»ºCloud Serviceï¼Œåœ¨æœ¬ä¾‹ä¸­ï¼ŒæœåŠ¡åœ°å€ä¸ºmytestckan.chinacloudapp.cnï¼Œ
+æ³¨æ„éœ€è¦æ‰“å¼€è‡³å°‘ä¸‰ä¸ªtcpç«¯å£ï¼Œåˆ†åˆ«ä¸º22ï¼Œ80ï¼Œ443ï¼Œç‚¹å‡»ä¸‹ä¸€æ­¥ï¼š
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/13.PNG)
 
-È·ÈÏVM AgentÒÑ¾­°²×°£¬µã»÷ÏÂÒ»²½£º
+ç¡®è®¤VM Agentå·²ç»å®‰è£…ï¼Œç‚¹å‡»ä¸‹ä¸€æ­¥ï¼š
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/14.PNG)
 
-µÈ´ıÖ±ÖÁĞéÄâ»ú×´Ì¬±äÎªRunning£¬ÖÁ´ËCKAN¾µÏñ²¿ÊğÍê±Ï£º
+ç­‰å¾…ç›´è‡³è™šæ‹ŸæœºçŠ¶æ€å˜ä¸ºRunningï¼Œè‡³æ­¤CKANé•œåƒéƒ¨ç½²å®Œæ¯•ï¼š
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/15.PNG)
 
-ÔÚä¯ÀÀÆ÷ÖĞÊäÈëÍøÖ·£ºhttp://mytestckan.chinacloudapp.cn£¬¿ÉÒÔ¿´µ½CKANÃÅ»§ÒÑ¾­¿ÉÒÔ·ÃÎÊÁË£º
+åœ¨æµè§ˆå™¨ä¸­è¾“å…¥ç½‘å€ï¼šhttp://mytestckan.chinacloudapp.cnï¼Œå¯ä»¥çœ‹åˆ°CKANé—¨æˆ·å·²ç»å¯ä»¥è®¿é—®äº†ï¼š
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/16.PNG)
 
-### °²×°ºóµÄÅäÖÃ£¨±ØĞëÍê³É£© ##
-ÓÉÓÚCKANµÄÌØÊâÒªÇó£¬Ã¿Ò»¸öĞÂ²¿ÊğµÄ¾µÏñĞèÒªµ÷Õûckan.site_url²ÎÊı²ÅÄÜÕı³£¹¤×÷£¬
-ÏÂÃæÑİÊ¾ÈçºÎĞŞ¸Ä´Ë²ÎÊı£º
-WindowsÓÃ»§¿ÉÍ¨¹ı°²×°ssh¿Í»§¶Ë£¬ÈçPuTTY£¬Á¬½Óµ½ĞÂ½¨µÄCKANĞé»ú£»LinuxºÍMacÓÃ»§¿ÉÖ±½ÓÍ¨¹ısshÃüÁîÁ¬½Ó£º
+### å®‰è£…åçš„é…ç½®ï¼ˆå¿…é¡»å®Œæˆï¼‰ ##
+ç”±äºCKANçš„ç‰¹æ®Šè¦æ±‚ï¼Œæ¯ä¸€ä¸ªæ–°éƒ¨ç½²çš„é•œåƒéœ€è¦è°ƒæ•´ckan.site_urlå‚æ•°æ‰èƒ½æ­£å¸¸å·¥ä½œï¼Œ
+ä¸‹é¢æ¼”ç¤ºå¦‚ä½•ä¿®æ”¹æ­¤å‚æ•°ï¼š
+Windowsç”¨æˆ·å¯é€šè¿‡å®‰è£…sshå®¢æˆ·ç«¯ï¼Œå¦‚PuTTYï¼Œè¿æ¥åˆ°æ–°å»ºçš„CKANè™šæœºï¼›Linuxå’ŒMacç”¨æˆ·å¯ç›´æ¥é€šè¿‡sshå‘½ä»¤è¿æ¥ï¼š
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/18.PNG)
-±¾ÀıÖĞÎÒÃÇ²ÉÓÃÓÃ»§ÃûÃÜÂëÈÏÖ¤·½Ê½µÇÂ¼mytestckan.chinacloudapp.cn
+æœ¬ä¾‹ä¸­æˆ‘ä»¬é‡‡ç”¨ç”¨æˆ·åå¯†ç è®¤è¯æ–¹å¼ç™»å½•mytestckan.chinacloudapp.cn
 
-ÔËĞĞÒÔÏÂÃüÁî,ÔËĞĞÇ°½«*YOUR-CKAN-DOMAIN-NAME*Ìæ»»ÎªÄúÊµ¼ÊµÄÍøÕ¾ÓòÃû£¬ÔÚ±¾ÀıÖĞÎªmytestckan.chinacloudapp.cn
-sudo sed -i 's/ckanimage.chinacloudapp.cn/YOUR-CKAN-DOMAIN-NAME/' /etc/ckan/default/production.ini
+è¿è¡Œä»¥ä¸‹å‘½ä»¤,è¿è¡Œå‰å°†*YOUR-CKAN-DOMAIN-NAME*æ›¿æ¢ä¸ºæ‚¨å®é™…çš„ç½‘ç«™åŸŸåï¼Œåœ¨æœ¬ä¾‹ä¸­ä¸ºmytestckan.chinacloudapp.cn
+sudo sed -i 's/ckanimage.chinacloudapp.cn/*YOUR-CKAN-DOMAIN-NAME*/' /etc/ckan/default/production.ini
 
-¼ì²éÃüÁîÊÇ·ñÉúĞ§£º
+æ£€æŸ¥å‘½ä»¤æ˜¯å¦ç”Ÿæ•ˆï¼š
 cat /etc/ckan/default/production.ini |grep ckan.site_url
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/19.PNG)
-×¢Òâ£¬ÄúÒ²Ğí»áÎªÄúµÄCKANÃÅ»§ÍøÕ¾ÉêÇë²»Í¬µÄÓòÃû£¬Çë½«site_urlÌæ»»ÎªÊµ¼ÊÓÃ»§·ÃÎÊÊ¹ÓÃµÄÓòÃû¡£
+æ³¨æ„ï¼Œæ‚¨ä¹Ÿè®¸ä¼šä¸ºæ‚¨çš„CKANé—¨æˆ·ç½‘ç«™ç”³è¯·ä¸åŒçš„åŸŸåï¼Œè¯·å°†site_urlæ›¿æ¢ä¸ºå®é™…ç”¨æˆ·è®¿é—®ä½¿ç”¨çš„åŸŸåã€‚
 
-ÖØÆôapacheºÍnginx·şÎñ£º
+é‡å¯apacheå’ŒnginxæœåŠ¡ï¼š
 sudo service apache2 restart && sudo service nginx restart
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/20.PNG)
 
-ÖÁ´Ë£¬ÄúµÄCKANÒÑ¾­ÅäÖÃÍê³É£¬¿ÉÒÔÕı³£Ê¹ÓÃÁË¡£
+è‡³æ­¤ï¼Œæ‚¨çš„CKANå·²ç»é…ç½®å®Œæˆï¼Œå¯ä»¥æ­£å¸¸ä½¿ç”¨äº†ã€‚
 
 
-### ´´½¨ÄúµÄµÚÒ»¸öÊı¾İ¼¯ ##
-ÒÔadminÉí·İµÇÂ¼CKANÃÅ»§ÍøÕ¾£¬Ä¬ÈÏÃÜÂëÊÇadmin£¬µÇÂ¼ºóÇëÁ¢¼´¸ü¸ÄÃÜÂë£º
+### åˆ›å»ºæ‚¨çš„ç¬¬ä¸€ä¸ªæ•°æ®é›† ##
+ä»¥adminèº«ä»½ç™»å½•CKANé—¨æˆ·ç½‘ç«™ï¼Œé»˜è®¤å¯†ç æ˜¯adminï¼Œç™»å½•åè¯·ç«‹å³æ›´æ”¹å¯†ç ï¼š
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/16.PNG)
 
-µã»÷¡°Êı¾İ¼¯¡± -> Ôö¼ÓÊı¾İ¼¯
+ç‚¹å‡»â€œæ•°æ®é›†â€ -> å¢åŠ æ•°æ®é›†
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/17.PNG)
 
-ÊäÈëÊı¾İ¼¯Ãû³Æ£¬µã»÷ÏÂÒ»²½£º
+è¾“å…¥æ•°æ®é›†åç§°ï¼Œç‚¹å‡»ä¸‹ä¸€æ­¥ï¼š
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/21.PNG)
 
-µã»÷¡°ÉÏ´«¡±£º
+ç‚¹å‡»â€œä¸Šä¼ â€ï¼š
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/22.PNG)
 
-Ñ¡Ôñ±¾µØExcelÎÄµµ£º
+é€‰æ‹©æœ¬åœ°Excelæ–‡æ¡£ï¼š
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/23.PNG)
 
-¸ñÊ½Ñ¡ÔñÎª¡°xls¡±£¬µã»÷ÏÂÒ»²½£º
+æ ¼å¼é€‰æ‹©ä¸ºâ€œxlsâ€ï¼Œç‚¹å‡»ä¸‹ä¸€æ­¥ï¼š
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/24.PNG)
 
-¿ÉÒÔÑ¡Ôñ²¹³äÊı¾İ¼¯µÄ¶îÍâĞÅÏ¢£¬µã»÷¡°Íê³É¡±£º
+å¯ä»¥é€‰æ‹©è¡¥å……æ•°æ®é›†çš„é¢å¤–ä¿¡æ¯ï¼Œç‚¹å‡»â€œå®Œæˆâ€ï¼š
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/25.PNG)
 
-ÖÁ´Ë£¬CKAN½«×Ô¶¯µ¼ÈëExcel±í¸ñ£¬²¢Í¬Ê±Éú³ÉOData¸ñÊ½Êı¾İ·ÃÎÊAPI¹©Ó¦ÓÃ³ÌĞò·ÃÎÊ¡£
+è‡³æ­¤ï¼ŒCKANå°†è‡ªåŠ¨å¯¼å…¥Excelè¡¨æ ¼ï¼Œå¹¶åŒæ—¶ç”ŸæˆODataæ ¼å¼æ•°æ®è®¿é—®APIä¾›åº”ç”¨ç¨‹åºè®¿é—®ã€‚
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/26.PNG)
 
-Ñ¡Ôñ¡°ä¯ÀÀ¡±->¡°Ô¤ÀÀ¡±¿ÉÒÔ²é¿´µ¼ÈëµÄÊı¾İ£º
+é€‰æ‹©â€œæµè§ˆâ€->â€œé¢„è§ˆâ€å¯ä»¥æŸ¥çœ‹å¯¼å…¥çš„æ•°æ®ï¼š
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/27.PNG)
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/28.PNG)
 
-Êı¾İµ¼ÈëÍê³Éºó£¬¿ÉÔÚCKANÃÅ»§Ê×Ò³¿´µ½ĞÂÔöµÄÊı¾İ¼¯£º
+æ•°æ®å¯¼å…¥å®Œæˆåï¼Œå¯åœ¨CKANé—¨æˆ·é¦–é¡µçœ‹åˆ°æ–°å¢çš„æ•°æ®é›†ï¼š
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/29.PNG)
 
 
-### ¶¨ÖÆÄúµÄCKAN ##
-ÄúÒ²ĞíÏ£Íû¸Ä±ä´Ë¾µÏñÄ¬ÈÏµÄÅäÖÃÈçÍøÕ¾±êÌâ£¬½éÉÜÎÄ×ÖµÈ£¬
-¿ÉÒÔÓÃadminµÇÂ¼ºó£¬µã»÷Ê×Ò³ÓÒÉÏ½Ç¡°ÏµÍ³¹ÜÀíÔ±ÉèÖÃ¡±£¬
-Ñ¡Ôñ¡°ÅäÖÃ¡±Ñ¡Ïî¿¨£¬https://raw.githubusercontent.com/msopentechcn/docs/master/images/£º
+### å®šåˆ¶æ‚¨çš„CKAN ##
+æ‚¨ä¹Ÿè®¸å¸Œæœ›æ”¹å˜æ­¤é•œåƒé»˜è®¤çš„é…ç½®å¦‚ç½‘ç«™æ ‡é¢˜ï¼Œä»‹ç»æ–‡å­—ç­‰ï¼Œ
+å¯ä»¥ç”¨adminç™»å½•åï¼Œç‚¹å‡»é¦–é¡µå³ä¸Šè§’â€œç³»ç»Ÿç®¡ç†å‘˜è®¾ç½®â€ï¼Œ
+é€‰æ‹©â€œé…ç½®â€é€‰é¡¹å¡ï¼Œhttps://raw.githubusercontent.com/msopentechcn/docs/master/images/ï¼š
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/30.PNG)
-ÔÚÕâÀï£¬Äú¿ÉÒÔ¶ÔÍøÕ¾·ç¸ñºÍÎÄ×Ö½øĞĞ¶¨ÖÆ¡£
+åœ¨è¿™é‡Œï¼Œæ‚¨å¯ä»¥å¯¹ç½‘ç«™é£æ ¼å’Œæ–‡å­—è¿›è¡Œå®šåˆ¶ã€‚
