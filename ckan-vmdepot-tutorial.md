@@ -32,23 +32,23 @@
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/8.PNG)
 
 ### 使用本地CKAN镜像创建虚机 ##
-在Azure管理控制台中，选择Virtual Machines -> Create a Virtual Machine
+在Azure管理控制台中，选择**Virtual Machines** -> **Create a Virtual Machine**
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/9.PNG)
 
 选择**From Gallery**：
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/10.PNG)
 
-在**My Images**类别，找到我们刚刚注册的CKAN镜像，点击下一步：
+在**My Images**类别，找到我们刚刚注册的CKAN镜像，点击**下一步**：
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/11.PNG)
 
-填写虚机名称，用户名和认证方式，注意这里的默认用户名为**azureuser**,点击下一步：
+填写虚机名称，用户名和认证方式，注意这里的默认用户名为**azureuser**,点击**下一步**：
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/12.PNG)
 
 创建Cloud Service，在本例中，服务地址为**mytestckan.chinacloudapp.cn**，
-注意需要打开至少三个TCP端口，分别为**22，80，443**，点击下一步：
+注意需要打开至少三个TCP端口，分别为**22，80，443**，点击**下一步**：
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/13.PNG)
 
-确认VM Agent已经安装，点击下一步：
+确认VM Agent已经安装，点击**下一步**：
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/14.PNG)
 
 等待直至虚拟机状态变为**Running**，至此CKAN镜像部署完毕：
@@ -58,14 +58,14 @@
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/16.PNG)
 
 ### 安装后的配置（必须完成） ##
-由于CKAN的特殊要求，每一个新部署的镜像需要调整ckan.site_url参数才能正常工作，下面演示如何修改此参数：
+由于CKAN的特殊要求，每一个新部署的镜像需要调整**ckan.site_url**参数才能正常工作，下面演示如何修改此参数：
 
 Windows用户可通过安装ssh客户端，如PuTTY，连接到新建的CKAN虚机；Linux和Mac用户可直接通过ssh命令连接：
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/18.PNG)
 本例中我们采用密码认证方式登录mytestckan.chinacloudapp.cn
 
 运行以下命令，运行前将*YOUR-CKAN-DOMAIN-NAME*替换为您实际的网站域名，在本例中为mytestckan.chinacloudapp.cn，
-注意，请勿加“http://”前缀：
+注意，请勿加“**http://**”前缀：
 
 `$sudo sed -i 's/ckanimage.chinacloudapp.cn/*YOUR-CKAN-DOMAIN-NAME*/' /etc/ckan/default/production.ini`
 
@@ -120,6 +120,6 @@ Windows用户可通过安装ssh客户端，如PuTTY，连接到新建的CKAN虚�
 
 ### 定制您的CKAN ##
 您也许希望改变此镜像默认的配置如网站标题，介绍文字等，
-可以用admin登录后，点击首页右上角“系统管理员设置”，
+可以用admin登录后，点击首页右上角**系统管理员设置**，
 选择**配置**选项卡，在这里，您可以对网站风格和文字进行定制:
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/30.PNG)
