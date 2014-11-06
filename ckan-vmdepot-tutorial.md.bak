@@ -10,10 +10,10 @@
 ### 在Azure管理控制台中，导入CKAN镜像到您的本地帐户 ##
 
 打开Azure控制台：[https://manage.windowsazure.cn](https://manage.windowsazure.cn)
-选择**Virtual Machines** -> **Images** -> **Browse VM Depot**:
+选择Virtual Machines -> Images -> Browse VM Depot:
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/1.PNG)
 
-在**Ubuntu**类别下找到**CKAN**镜像，这是已经发布在VM Depot上的一键部署镜像：
+在Ubuntu类别下找到CKAN镜像，这是已经发布在VM Depot上的一键部署镜像：
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/2.PNG)
 
 下面需要将此镜像拷贝到的用户存储账户，可以选择已有的存储帐户，也可新建：
@@ -22,36 +22,36 @@
 拷贝过程将花费几分钟的时间：
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/4.PNG)
 
-拷贝完成后，本地CKAN镜像的状态是**Pending registration**，点击**Register**注册：
+拷贝完成后，本地CKAN镜像的状态是Pending registration，点击Register注册：
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/6.PNG)
 
 填写注册镜像名称：
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/7.PNG)
 
-镜像状态变为**Available**，至此，CKAN镜像已经准备完毕：
+镜像状态变为Available，至此，CKAN镜像已经准备完毕：
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/8.PNG)
 
 ### 使用本地CKAN镜像创建虚机 ##
 在Azure管理控制台中，选择Virtual Machines -> Create a Virtual Machine
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/9.PNG)
 
-选择**From Gallery**：
+选择From Gallery：
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/10.PNG)
 
-在**My Images**类别，找到我们刚刚注册的CKAN镜像，点击下一步：
+在My Images类别，找到我们刚刚注册的CKAN镜像，点击下一步：
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/11.PNG)
 
-填写虚机名称，用户名和认证方式，注意这里的默认用户名为**azureuser**,点击下一步：
+填写虚机名称，用户名和认证方式，注意这里的默认用户名为azureuser,点击下一步：
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/12.PNG)
 
-创建Cloud Service，在本例中，服务地址为**mytestckan.chinacloudapp.cn**，
-注意需要打开至少三个TCP端口，分别为**22，80，443**，点击下一步：
+创建Cloud Service，在本例中，服务地址为mytestckan.chinacloudapp.cn，
+注意需要打开至少三个TCP端口，分别为22，80，443，点击下一步：
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/13.PNG)
 
 确认VM Agent已经安装，点击下一步：
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/14.PNG)
 
-等待直至虚拟机状态变为**Running**，至此CKAN镜像部署完毕：
+等待直至虚拟机状态变为Running，至此CKAN镜像部署完毕：
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/15.PNG)
 
 在浏览器中输入网址：[http://mytestckan.chinacloudapp.cn](http://mytestckan.chinacloudapp.cn)，可以看到CKAN门户已经可以访问了：
@@ -86,31 +86,31 @@ Windows用户可通过安装ssh客户端，如PuTTY，连接到新建的CKAN虚�
 
 
 ### 创建您的第一个数据集 ##
-以**admin**身份登录CKAN门户网站，默认密码是**admin**，登录后请立即更改密码：
+以admin身份登录CKAN门户网站，默认密码是admin，登录后请立即更改密码：
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/16.PNG)
 
-点击**数据集** -> **增加数据集**
+点击“数据集” -> 增加数据集
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/17.PNG)
 
-输入数据集名称，点击**下一步**：
+输入数据集名称，点击下一步：
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/21.PNG)
 
-点击**上传**：
+点击“上传”：
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/22.PNG)
 
 选择本地Excel文档：
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/23.PNG)
 
-格式选择为**xls**，点击**下一步**：
+格式选择为“xls”，点击下一步：
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/24.PNG)
 
-可以选择补充数据集的额外信息，点击**完成**：
+可以选择补充数据集的额外信息，点击“完成”：
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/25.PNG)
 
 至此，CKAN将自动导入Excel表格，并同时生成OData格式数据访问API供应用程序访问。
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/26.PNG)
 
-选择**浏览**->**预览**可以查看导入的数据：
+选择“浏览”->“预览”可以查看导入的数据：
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/27.PNG)
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/28.PNG)
 
@@ -121,5 +121,5 @@ Windows用户可通过安装ssh客户端，如PuTTY，连接到新建的CKAN虚�
 ### 定制您的CKAN ##
 您也许希望改变此镜像默认的配置如网站标题，介绍文字等，
 可以用admin登录后，点击首页右上角“系统管理员设置”，
-选择**配置**选项卡，在这里，您可以对网站风格和文字进行定制:
+选择“配置”选项卡，在这里，您可以对网站风格和文字进行定制:
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/30.PNG)
