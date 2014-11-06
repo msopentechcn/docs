@@ -11,7 +11,7 @@ You need an available Microsoft Azure public cloud account.
 Access the Azure Console at https://manage.windowsazure.cn and choose **Virtual Machines** -> **Images** -> **Browse VM Depot**:
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/1.PNG)
 
-Locate the CKAN image, a one-touch deployment image released on VM Depot, under UBUNTU:
+Locate the CKAN image, a one-touch deployment image released on VM Depot, under **UBUNTU**:
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/2.PNG)
 
 You have options to copy the image to an existing storage account or create a new one:

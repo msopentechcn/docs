@@ -20,7 +20,7 @@ You have options to copy the image to an existing storage account or create a ne
 The copying process takes a few minutes:
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/4.PNG)
 
-The local CKAN image turns to the Pending registration state after the copying is completed. Click **Register**:
+The local CKAN image turns to the **Pending registration** state after the copying is completed. Click **Register**:
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/6.PNG)
 
 Enter a name for the registration:
@@ -30,7 +30,7 @@ The image turns **Available**. Now, you get the CKAN image ready:
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/8.PNG)
 
 ### Creating a VM using the Local CKAN Image ##
-Choose **Virtual Machines -> Create a Virtual Machine** from the Azure Console.
+Choose **Virtual Machines** -> **Create a Virtual Machine** from the Azure Console.
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/9.PNG)
 
 Select **From Gallery**:
