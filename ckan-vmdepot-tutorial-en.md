@@ -65,18 +65,18 @@ In this example, we log on to mytestckan.chinacloudapp.cn through password authe
 Run the following command by replacing *YOUR-CKAN-DOMAIN-NAME* with your real domain name (mytestckan.chinacloudapp.cn in this example). 
 Note that the domain name does not carry the prefix 'http://':
 
-$sudo sed -i 's/ckanimage.chinacloudapp.cn/*YOUR-CKAN-DOMAIN-NAME*/' /etc/ckan/default/production.ini
+`$sudo sed -i 's/ckanimage.chinacloudapp.cn/*YOUR-CKAN-DOMAIN-NAME*/' /etc/ckan/default/production.ini`
 
 Check whether the command works:
 
-$cat /etc/ckan/default/production.ini | grep ckan.site_url
+`$cat /etc/ckan/default/production.ini | grep ckan.site_url`
 
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/19.PNG)
 Note: You might have applied for a different domain name for your CKAN. Please replace site_url with the actual domain name accessible by end users.
 
 Restart the apache and nginx services:
 
-$sudo service apache2 restart && sudo service nginx restart
+`$sudo service apache2 restart && sudo service nginx restart`
 
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/20.PNG)
 
