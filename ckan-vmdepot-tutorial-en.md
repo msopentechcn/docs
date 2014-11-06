@@ -8,7 +8,7 @@ You need an available Microsoft Azure public cloud account.
 
 ### Importing a CKAN Image to Your Local Account with the Azure Console ##
 
-Access the Azure Console at https://manage.windowsazure.cn and choose **Virtual Machines** -> **Images** -> **Browse VM Depot**:
+Access the Azure Console at https://manage.windowsazure.cn and choose **Virtual Machines** > **Images** > **Browse VM Depot**:
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/1.PNG)
 
 Locate the CKAN image, a one-touch deployment image released on VM Depot, under **UBUNTU**:
@@ -30,7 +30,7 @@ The image turns **Available**. Now, you get the CKAN image ready:
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/8.PNG)
 
 ### Creating a VM using the Local CKAN Image ##
-Choose **Virtual Machines** -> **Create a Virtual Machine** from the Azure Console.
+Choose **Virtual Machines** > **Create a Virtual Machine** from the Azure Console.
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/9.PNG)
 
 Select **From Gallery**:
@@ -87,7 +87,7 @@ Now, you have completed configuring the CKAN and are ready to use it.
 Log on to the CKAN portal as **admin** (default password as **admin**) and change your password immediately after logged on:
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/16.PNG)
 
-Choose **Dataset** -> **Add a Dataset**.
+Choose **Dataset** > **Add a Dataset**.
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/17.PNG)
 
 Enter a name for the dataset, and then click **Next**:
@@ -108,7 +108,7 @@ Here you have options to specify additional information for the dataset. Click *
 Then, CKAN automatically imports the Excel spreadsheet and generates an OData API accessible by applications.
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/26.PNG)
 
-Choose **Browse** -> **Preview** to view the imported data:
+Choose **Browse** > **Preview** to view the imported data:
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/27.PNG)
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/28.PNG)
 

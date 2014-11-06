@@ -10,7 +10,7 @@
 ### 在Azure管理控制台中，导入CKAN镜像到您的本地帐户 ##
 
 打开Azure控制台：[https://manage.windowsazure.cn](https://manage.windowsazure.cn)
-选择**Virtual Machines** -> **Images** -> **Browse VM Depot**:
+选择**Virtual Machines** > **Images** > **Browse VM Depot**:
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/1.PNG)
 
 在**Ubuntu**类别下找到**CKAN**镜像，这是已经发布在VM Depot上的一键部署镜像：
@@ -32,7 +32,7 @@
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/8.PNG)
 
 ### 使用本地CKAN镜像创建虚机 ##
-在Azure管理控制台中，选择**Virtual Machines** -> **Create a Virtual Machine**
+在Azure管理控制台中，选择**Virtual Machines** > **Create a Virtual Machine**
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/9.PNG)
 
 选择**From Gallery**：
@@ -89,7 +89,7 @@ Windows用户可通过安装ssh客户端，如PuTTY，连接到新建的CKAN虚�
 以**admin**身份登录CKAN门户网站，默认密码是**admin**，登录后请立即更改密码：
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/16.PNG)
 
-点击**数据集** -> **增加数据集**
+点击**数据集** > **增加数据集**
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/17.PNG)
 
 输入数据集名称，点击**下一步**：
@@ -110,7 +110,7 @@ Windows用户可通过安装ssh客户端，如PuTTY，连接到新建的CKAN虚�
 至此，CKAN将自动导入Excel表格，并同时生成OData格式数据访问API供应用程序访问。
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/26.PNG)
 
-选择**浏览**->**预览**可以查看导入的数据：
+选择**浏览**>**预览**可以查看导入的数据：
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/27.PNG)
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/28.PNG)
 
