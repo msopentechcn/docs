@@ -1,14 +1,22 @@
 #使用VMDepot镜像快速部署CKAN开放数据门户#
 
 最新发布的CKAN VMDepot镜像针对中国用户强化了中文支持，提升了与MS Office办公软件的互操作性，并集成了常用插件和最佳实践配置参数。
-使得CKAN原本十分复杂繁琐的部署流程变得非常简单。本指南展示了如何使用VMDepot镜像快速部署CKAN开放数据门户。
+使得CKAN原本十分复杂繁琐的部署流程变得非常简单。本指南展示了如何使用VMDepot镜像快速部署CKAN开放数据门户:
+
+- [前提条件](#id_1)
+- [使用VMDepot镜像部署CKAN](#id_2)
+	- [1. 导入CKAN镜像到您的本地帐户](#id_2_1)
+	- [2. 使用本地CKAN镜像创建虚机](#id_2_2)
+	- [3. 安装后的配置（必须完成）](#id_2_3)
+- [创建您的第一个数据集](#id_3)
+- [定制您的CKAN](#id_4)
 
 
-## 前提条件 ##
+## <a name='id_1'></a>前提条件 ##
 您需要一个可用的微软中国Azure公有云账户
 
-## 使用VMDepot镜像部署CKAN ##
-### 1. 在Azure管理控制台中，导入CKAN镜像到您的本地帐户 ##
+## <a name='id_2'></a>使用VMDepot镜像部署CKAN ###
+### <a name='id_2_1'></a>1. 导入CKAN镜像到您的本地帐户 ###
 
 打开Azure控制台：[https://manage.windowsazure.cn](https://manage.windowsazure.cn)
 选择**Virtual Machines** > **Images** > **Browse VM Depot**:
@@ -32,7 +40,7 @@
 镜像状态变为**Available**，至此，CKAN镜像已经准备完毕：
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/8.PNG)
 
-### 2. 使用本地CKAN镜像创建虚机 ##
+### <a name='id_2_2'></a>2. 使用本地CKAN镜像创建虚机 ###
 在Azure管理控制台中，选择**Virtual Machines** > **Create a Virtual Machine**
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/9.PNG)
 
@@ -58,7 +66,7 @@
 在浏览器中输入网址：[http://mytestckan.chinacloudapp.cn](http://mytestckan.chinacloudapp.cn)，可以看到CKAN门户已经可以访问了：
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/16.PNG)
 
-### 3. 安装后的配置（必须完成） ##
+### <a name='id_2_3'></a>3. 安装后的配置（必须完成） ###
 由于CKAN的特殊要求，每一个新部署的镜像需要调整**ckan.site_url**参数才能正常工作，下面演示如何修改此参数：
 
 Windows用户可通过安装ssh客户端，如PuTTY，连接到新建的CKAN虚机；Linux和Mac用户可直接通过ssh命令连接：
@@ -86,7 +94,7 @@ Windows用户可通过安装ssh客户端，如PuTTY，连接到新建的CKAN虚�
 至此，您的CKAN已经配置完成，可以正常使用了。
 
 
-## 创建您的第一个数据集 ##
+## <a name='id_3'></a>创建您的第一个数据集 ##
 以**admin**身份登录CKAN门户网站，默认密码是**admin**，登录后请立即更改密码：
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/16.PNG)
 
@@ -119,7 +127,7 @@ Windows用户可通过安装ssh客户端，如PuTTY，连接到新建的CKAN虚�
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/29.PNG)
 
 
-## 定制您的CKAN ##
+## <a name='id_4'></a>定制您的CKAN ##
 您也许希望改变此镜像默认的配置如网站标题，介绍文字等，
 可以用admin登录后，点击首页右上角**系统管理员设置**，
 选择**配置**选项卡，在这里，您可以对网站风格和文字进行定制:
