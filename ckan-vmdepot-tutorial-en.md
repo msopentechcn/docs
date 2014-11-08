@@ -87,12 +87,14 @@ For a deployed CKAN image to work, you need to change parameter **ckan.site_url*
 Windows users could install the SSH client, such as PuTTY, for connecting to the created CKAN VM; Linux and Mac users could directly run an SSH command:
 
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/18.PNG)
+
 In this example, we log on to mytestckan.chinacloudapp.cn through password authentication.
 
-Run the following command by replacing *YOUR-CKAN-DOMAIN-NAME* with your real domain name (mytestckan.chinacloudapp.cn in this example). 
-Note that the domain name does not carry the prefix 'http://':
+Run the following command by replacing *YOUR-CKAN-DOMAIN-NAME* with your real domain name (mytestckan.chinacloudapp.cn in this example):
 
 `$sudo sed -i 's/ckanimage.chinacloudapp.cn/YOUR-CKAN-DOMAIN-NAME/' /etc/ckan/default/production.ini`
+
+> Note that the domain name does not carry the prefix 'http://'.
 
 Check whether the command works:
 
@@ -100,7 +102,8 @@ Check whether the command works:
 
 
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/19.PNG)
-Note: You might have applied for a different domain name for your CKAN. Please replace site_url with the actual domain name accessible by end users.
+
+> Note: You might have applied for a different domain name for your CKAN. Please replace site_url with the actual domain name accessible by end users.
 
 Restart the apache and nginx services:
 

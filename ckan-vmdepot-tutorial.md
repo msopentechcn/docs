@@ -90,20 +90,19 @@ Windows用户可通过安装ssh客户端，如PuTTY，连接到新建的CKAN虚�
 
 本例中我们采用密码认证方式登录mytestckan.chinacloudapp.cn
 
-运行以下命令，运行前将*YOUR-CKAN-DOMAIN-NAME*替换为您实际的网站域名，在本例中为mytestckan.chinacloudapp.cn，
-
-注意，请勿加“**http://**”前缀：
+运行以下命令，运行前将*YOUR-CKAN-DOMAIN-NAME*替换为您实际的网站域名，在本例中为mytestckan.chinacloudapp.cn：
 
 `$sudo sed -i 's/ckanimage.chinacloudapp.cn/YOUR-CKAN-DOMAIN-NAME/' /etc/ckan/default/production.ini`
+
+> 注意，请勿加“**http://**”前缀。
 
 检查命令是否生效：
 
 `$cat /etc/ckan/default/production.ini | grep ckan.site_url`
 
-
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/19.PNG)
 
-注意：您也许会为您的CKAN门户网站申请不同的域名，请将site_url替换为最终用户实际访问的域名。
+> 注意：您也许会为您的CKAN门户申请不同的域名，请将site_url替换为最终用户实际访问的域名。
 
 重启apache和nginx服务：
 
