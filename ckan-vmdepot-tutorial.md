@@ -94,7 +94,7 @@ Windows用户可通过安装ssh客户端，如PuTTY，连接到新建的CKAN虚�
 
 `$sudo sed -i 's/ckanimage.chinacloudapp.cn/YOUR-CKAN-DOMAIN-NAME/' /etc/ckan/default/production.ini`
 
-> 注意，请勿加“**http://**”前缀。
+> 注意：上述命令中的网站域名请勿加“**http://**”前缀。
 
 检查命令是否生效：
 

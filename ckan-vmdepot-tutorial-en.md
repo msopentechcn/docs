@@ -94,7 +94,7 @@ Run the following command by replacing *YOUR-CKAN-DOMAIN-NAME* with your real do
 
 `$sudo sed -i 's/ckanimage.chinacloudapp.cn/YOUR-CKAN-DOMAIN-NAME/' /etc/ckan/default/production.ini`
 
-> Note that the domain name does not carry the prefix 'http://'.
+> Note: The domain name in the command does not carry the prefix 'http://'.
 
 Check whether the command works:
 
