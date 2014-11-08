@@ -1,12 +1,20 @@
 #Quickly Deploying CKAN using VM Depot#
 
-The latest release of CKAN VM Depot provides additional Chinese support, enhanced interoperability between CKAN and MS Office, and incorporates common plug-ins and best practice configuration parameters, which to a great extent streamlines the otherwise complicated CKAN deployment. This guide explains how to quickly deploy CKAN using VM Depot.
+The latest release of CKAN VM Depot provides additional Chinese support, enhanced interoperability between CKAN and MS Office, and incorporates common plug-ins and best practice configuration parameters, which to a great extent streamlines the otherwise complicated CKAN deployment. This guide explains how to quickly deploy CKAN using VM Depot:
 
-##Prerequisites##
+- [Prerequisites](#id_1)
+- [Deploy CKAN using VM Depot](#id_2)
+	- [1. Importing a CKAN Image to Your Local Account with the Azure Console](#id_2_1)
+	- [2. Creating a VM using the Local CKAN Image](#id_2_2)
+	- [3. Configurations After Installation (Mandatory)](#id_2_3)
+- [Creating Your First Dataset](#id_3)
+- [Customizing Your CKAN](#id_4)
+
+##<a name='id_1'></a>Prerequisites##
 You need an available Microsoft Azure public cloud account.
 
-## Deploy CKAN using VM Depot ##
-### 1. Importing a CKAN Image to Your Local Account with the Azure Console ##
+## <a name='id_2'></a>Deploy CKAN using VM Depot ##
+### <a name='id_2_1'></a>1. Importing a CKAN Image to Your Local Account with the Azure Console ###
 
 Access the Azure Console at https://manage.windowsazure.cn and choose **Virtual Machines** > **Images** > **Browse VM Depot**:
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/1.PNG)
@@ -29,7 +37,7 @@ Enter a name for the registration:
 The image turns **Available**. Now, you get the CKAN image ready:
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/8.PNG)
 
-### 2. Creating a VM using the Local CKAN Image ##
+### <a name='id_2_2'></a>2. Creating a VM using the Local CKAN Image ###
 Choose **Virtual Machines** > **Create a Virtual Machine** from the Azure Console.
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/9.PNG)
 
@@ -55,7 +63,7 @@ Wait until the VM turns Running. Now, you have completed CKAN image deployment:
 Type [http://mytestckan.chinacloudapp.cn](http://mytestckan.chinacloudapp.cn) in your browser’s address bar, and you can access the CKAN:
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/16.PNG)
 
-### 3. Configurations After Installation (Mandatory) ##
+### <a name='id_2_3'></a>3. Configurations After Installation (Mandatory) ###
 For a deployed CKAN image to work, you need to change parameter **ckan.site_url** as follows:
 
 Windows users could install the SSH client, such as PuTTY, for connecting to the created CKAN VM; Linux and Mac users could directly run an SSH command:
@@ -83,7 +91,7 @@ Restart the apache and nginx services:
 Now, you have completed configuring the CKAN and are ready to use it.
 
 
-## Creating Your First Dataset ##
+## <a name='id_3'></a>Creating Your First Dataset ##
 Log on to the CKAN portal as **admin** (default password as **admin**) and change your password immediately after logged on:
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/16.PNG)
 
@@ -116,7 +124,7 @@ You will see the created dataset on the CKAN homepage after the importing is com
 ![](https://raw.githubusercontent.com/msopentechcn/docs/master/images/29.PNG)
 
 
-## Customizing Your CKAN ##
+## <a name='id_4'></a>Customizing Your CKAN ###
 You may hope to change the default configurations of the image, for example, website title and description. 
 To do so, log on as **admin**, click **Administrator settings** button in the upper right corner of the homepage, 
 and click the **Configure** tab. Here you can change, for example, the style and description of the website:
