@@ -1,6 +1,6 @@
-﻿#Quickly Deploying CKAN using VM Depot#
+#Quickly Deploying CKAN using VM Depot#
 
-The latest release of CKAN VM Depot provides additional Chinese support, and incorporates common plug-ins and best practice configuration parameters, which to a great extent streamlines the otherwise complicated CKAN deployment. This guide explains how to quickly deploy CKAN using VM Depot.
+The latest release of CKAN VM Depot provides additional Chinese support, enhanced interoperability between CKAN and MS Office, and incorporates common plug-ins and best practice configuration parameters, which to a great extent streamlines the otherwise complicated CKAN deployment. This guide explains how to quickly deploy CKAN using VM Depot.
 
 ###Prerequisites##
 You need an available Microsoft Azure public cloud account.
@@ -65,7 +65,7 @@ In this example, we log on to mytestckan.chinacloudapp.cn through password authe
 Run the following command by replacing *YOUR-CKAN-DOMAIN-NAME* with your real domain name (mytestckan.chinacloudapp.cn in this example). 
 Note that the domain name does not carry the prefix 'http://':
 
-`$sudo sed -i 's/ckanimage.chinacloudapp.cn/*YOUR-CKAN-DOMAIN-NAME*/' /etc/ckan/default/production.ini`
+`$sudo sed -i 's/ckanimage.chinacloudapp.cn/YOUR-CKAN-DOMAIN-NAME/' /etc/ckan/default/production.ini`
 
 Check whether the command works:
 

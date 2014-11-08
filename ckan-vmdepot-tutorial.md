@@ -1,6 +1,6 @@
-﻿#使用VMDepot镜像快速部署CKAN开放数据门户#
+#使用VMDepot镜像快速部署CKAN开放数据门户#
 
-最新发布的CKAN VMDepot镜像针对中国用户强化了中文支持，并集成了常用插件和最佳实践配置参数。
+最新发布的CKAN VMDepot镜像针对中国用户强化了中文支持，提升了与MS Office办公软件的互操作性，并集成了常用插件和最佳实践配置参数。
 使得CKAN原本十分复杂繁琐的部署流程变得非常简单。本指南展示了如何使用VMDepot镜像快速部署CKAN开放数据门户。
 
 ###前提条件##
@@ -67,7 +67,7 @@ Windows用户可通过安装ssh客户端，如PuTTY，连接到新建的CKAN虚�
 运行以下命令，运行前将*YOUR-CKAN-DOMAIN-NAME*替换为您实际的网站域名，在本例中为mytestckan.chinacloudapp.cn，
 注意，请勿加“**http://**”前缀：
 
-`$sudo sed -i 's/ckanimage.chinacloudapp.cn/*YOUR-CKAN-DOMAIN-NAME*/' /etc/ckan/default/production.ini`
+`$sudo sed -i 's/ckanimage.chinacloudapp.cn/YOUR-CKAN-DOMAIN-NAME/' /etc/ckan/default/production.ini`
 
 检查命令是否生效：
 
