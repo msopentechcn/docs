@@ -17,12 +17,12 @@
 
 ## 安装Azure Toolkit for Eclipse
 1. 启动Eclipse
-2. 点击**Help**, 然后点击**Install New Software**   
+2. 点击**Help**, 然后点击**Install New Software**                                         
 ![](https://i-msdn.sec.s-msft.com/dynimg/IC590123.png)
 
 
 3. 在**Available Software**对话框中, 在**Work with**文本框中输入：http://dl.msopentech.com/eclipse
-4. 在**Name**面板, 选择**Azure Toolkit for Eclipse**, 不勾选**Contact all update sites during install to find required software**. 如图:
+4. 在**Name**面板, 选择**Azure Toolkit for Eclipse**, 不勾选**Contact all update sites during install to find required software**. 如图:                                            
 ![](https://i-msdn.sec.s-msft.com/dynimg/IC719482.png)
 
 
@@ -39,11 +39,11 @@
 
 ##建立Hello world应用程序
 
-1. 启动Eclipse. 在顶部菜单中选择File -> New -> Dynamic Web Project. 在此课程中，项目命名为**MyHelloWorld**. 如下图所示: 
+1. 启动Eclipse. 在顶部菜单中选择File -> New -> Dynamic Web Project. 在此课程中，项目命名为**MyHelloWorld**. 如下图所示:      
 ![](https://i-msdn.sec.s-msft.com/dynimg/IC589576.png)
 
 2. 在Eclipse’s Project Explorer视图中, 展开**MyHelloWorld**. 右键点击**WebContent**, 点击**New**, 点击**JSP File**. 
-3. 在New JSP File对话框中, 将文件命名为**index.jsp**. 保持父目录为**MyHelloWorld/WebContent**, 如图所示:
+3. 在New JSP File对话框中, 将文件命名为**index.jsp**. 保持父目录为**MyHelloWorld/WebContent**, 如图所示:             
 ![](https://i-msdn.sec.s-msft.com/dynimg/IC659262.png)
 
 
